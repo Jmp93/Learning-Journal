@@ -24,7 +24,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 2rem;
+  padding: 1.25rem 1.25rem;
 }
 
 .logo-img {
@@ -54,4 +54,17 @@ nav {
 
 .nav-link:first-child {
   margin-right: 1rem;
+}
+
+.hero {
+  background: url(./img/article-image-hero.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding: 1.25rem;
 }
