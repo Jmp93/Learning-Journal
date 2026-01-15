@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 *,
 *::before,
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 a {
@@ -32,14 +32,14 @@ nav {
 }
 
 .logo-name {
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.25rem;
+  gap: 0.125rem;
 }
 
 .nav-list {
@@ -48,6 +48,7 @@ nav {
 
 .nav-link {
   color: #090909;
+  font-size: 0.75rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -60,11 +61,69 @@ nav {
   background: url(./img/article-image-hero.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  height: 50vh;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: start;
   padding: 1.25rem;
+}
+
+.hero-date {
+  font-size: 0.75rem;
+}
+
+.hero-heading {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.hero-subheading {
+  font-size: 0.85rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.container .blog-img {
+  width: 100%;
+}
+
+.section-link {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-link a {
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  background: #202020;
+  padding: 2rem;
+}
+
+.footer-copy {
+  color: #d7d7d7;
+}
+
+.blog-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.section-link a:hover {
+  color: #333; /* A slight color change */
 }
