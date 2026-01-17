@@ -3,7 +3,6 @@ import { postsData } from './data.js'
 const postsGrid = document.getElementById('posts-grid')
 
 function renderRecentPosts() {
-    // Only get the first 3 posts
     const recentPosts = postsData.slice(0, 3)
 
     const html = recentPosts.map(post => `
