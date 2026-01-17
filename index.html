@@ -7,74 +7,45 @@
     <title>Learning Journal</title>
   </head>
   <body>
-    <nav class="nav">
+   <nav class="nav container">
       <div class="logo">
-        <img src="./img/image 17.png" alt="Logo for website" class="logo-img" />
+        <img src="./img/image 17.png" alt="Logo" class="logo-img" />
         <h1 class="logo-name">My learning journal</h1>
       </div>
       <ul class="nav-links">
-        <li class="nav-list">
-          <a href="index.html" class="nav-link">Home</a>
-          <a href="about.html" class="nav-link">About</a>
-        </li>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Me</a></li>
       </ul>
     </nav>
 
     <main>
-      <div class="hero">
-        <p class="hero-date">July 23, 2022</p>
-        <h1 class="hero-heading">My new journey as a bootcamp student.</h1>
-        <p class="hero-subheading">
-          After several months of learning in the Frontend Developer Career
-          Path, I've made the big jump over to the Bootcamp to get expert code
-          reviews of my Solo Projects and meet like-minded peers.
-        </p>
-      </div>
-
-      <section class="blog">
+      <header class="hero">
         <div class="container">
-          <div class="blog-post">
-            <img src="./img/blog-image-06.jpg" alt="" class="blog-img" />
-            <div class="blog-date">July 23, 2022</div>
-            <h3 class="blog-heading">Blog one</h3>
-            <p class="blog-paragraph">
-              I'm excited to start a new learning journey as a Scrimba Bootcampl
-              student. After several months of learning in the Frontend Career
-              Path.
-            </p>
-          </div>
+          <p class="hero-date">July 23, 2022</p>
+          <h1 class="hero-heading">My new journey as a bootcamp student.</h1>
+          <p class="hero-subheading">
+            After several months of learning in the Frontend Developer Career
+            Path, I've made the big jump over to the Bootcamp to get expert code
+            reviews...
+          </p>
+        </div>
+      </header>
 
-          <div class="blog-post">
-            <img src="./img/blog-image-02.jpg" alt="" class="blog-img" />
-            <div class="blog-date">July 23, 2022</div>
-            <h3 class="blog-heading">Blog one</h3>
-            <p class="blog-paragraph">
-              I'm excited to start a new learning journey as a Scrimba Bootcampl
-              student. After several months of learning in the Frontend Career
-              Path.
-            </p>
-          </div>
+      <section class="blog container">
+        <div id="posts-grid" class="posts-grid">
+            </div>
 
-          <div class="blog-post">
-            <img src="./img/blog-image-04.png" alt="" class="blog-img" />
-            <div class="blog-date">July 23, 2022</div>
-            <h3 class="blog-heading">Blog one</h3>
-            <p class="blog-paragraph">
-              I'm excited to start a new learning journey as a Scrimba Bootcampl
-              student. After several months of learning in the Frontend Career
-              Path.
-            </p>
-          </div>
+        <div class="cta-container">
+            <button id="view-more-btn" class="view-more-btn">View More</button>
         </div>
       </section>
-      <p class="section-link">
-        <a href="about.html">View More</a>
-      </p>
 
       <footer>
         <p class="footer-heading">My Learning Journal</p>
-        <p class="footer-copy">Copyright 2022</p>
+        <p class="footer-copy">&copy; Copyright 2026</p>
       </footer>
     </main>
+
+    <script src="script.js" type="module"></script>
   </body>
 </html>
