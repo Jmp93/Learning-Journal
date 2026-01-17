@@ -3,7 +3,7 @@
 A fully responsive, multi-page blog application designed to showcase professional front-end architecture and data-driven rendering.
 
 ## 🚀 Live Demo
-[YOUR_NETLIFY_URL_HERE]
+https://learning-journal-sc.netlify.app/
 
 ## 🛠️ Tech Stack
 - **HTML5** (Semantic structure)
@@ -18,4 +18,4 @@ A fully responsive, multi-page blog application designed to showcase professiona
 - **Multi-Page Sync:** Managed consistent navigation and footer components across different HTML files for a cohesive user experience.
 
 ## 📸 Preview
-![Project Preview](./img/project-preview.png)
+![Project Preview](./img/screenshot.png)
