@@ -224,6 +224,26 @@ footer {
 
 
 @media (min-width: 768px) {
+
+  .nav {
+        padding: 2.5rem 0; /* More vertical space for a premium feel */
+    }
+
+    .logo-img {
+        width: 2.5rem; /* Make the logo slightly larger on desktop */
+    }
+
+    .logo-name {
+        font-size: 1.5rem; /* Increase text size for the logo */
+    }
+
+    .nav-links {
+        gap: 3rem; /* Spread the links (Home / About) further apart */
+    }
+
+    .nav-link {
+        font-size: 1rem; /* Slightly larger text for easier clicking */
+    }
     .about-header {
         flex-direction: row; /* Side-by-side headshot and intro */
         align-items: center;
